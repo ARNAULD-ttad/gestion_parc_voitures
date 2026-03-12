@@ -4,3 +4,8 @@ class Voiture:
         self.marque = marque
         self.modele = modele
         self.immatriculation = immatriculation
+
+    def afficher_info(self):
+        print("Marque :", self.marque)
+        print("Modele :", self.modele)
+        print("Immatriculation :", self.immatriculation)
