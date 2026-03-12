@@ -14,3 +14,16 @@ class Parc:
     def __init__(self, capacite):
         self.capacite = capacite
         self.voitures = []
+
+    def entrerVoiture(self, voiture):
+
+        if voiture in self.voitures:
+            print("La voiture est déjà dans le parc")
+            return
+
+        if len(self.voitures) >= self.capacite:
+            print("Le parc est plein")
+            return
+
+        self.voitures.append(voiture)
+        print("Voiture ajoutée au parc")
