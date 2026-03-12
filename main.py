@@ -9,3 +9,8 @@ class Voiture:
         print("Marque :", self.marque)
         print("Modele :", self.modele)
         print("Immatriculation :", self.immatriculation)
+class Parc:
+
+    def __init__(self, capacite):
+        self.capacite = capacite
+        self.voitures = []
