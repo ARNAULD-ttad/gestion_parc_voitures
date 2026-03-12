@@ -43,3 +43,7 @@ class Parc:
 
         return self.capacite - len(self.voitures)
 parc = Parc(3)
+v1 = Voiture("Toyota", "Corolla", "AA111")
+v2 = Voiture("BMW", "X5", "BB222")
+v3 = Voiture("Audi", "A4", "CC333")
+v4 = Voiture("Mercedes", "C300", "DD444")
